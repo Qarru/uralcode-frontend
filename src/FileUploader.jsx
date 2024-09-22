@@ -26,7 +26,7 @@ function FileUploader() {
         formData.append('file', selectedFile);
 
         try {
-            const response = await fetch('http://192.168.53.28:8000/file/upload-file', {
+            const response = await fetch('http://qarr.ru:8000/file/upload-file', {
                 method: 'POST',
                 body: formData,
             });
